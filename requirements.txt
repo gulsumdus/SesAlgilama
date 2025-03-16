@@ -1,0 +1,10 @@
+#Gerekli kütüphaneleri içeren dosya.
+
+speechrecognition:  Converts speech to text (STT).
+gtts:  Converts text to speech (TTS).
+playsound:  Plays the generated speech audio.
+rapidfuzz: Finds the best matching answer (fuzzy string matching).
+
+opencv-python: for image processing
+
+
