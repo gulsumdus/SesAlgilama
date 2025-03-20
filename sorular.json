@@ -4,36 +4,32 @@
     "Nasılsın?": "Ben bir yapay zeka asistanıyım, duygularım yok ama size yardımcı olmaktan mutluluk duyarım!",
     "Sen kimsin?": "Ben, sesli soru-cevap sisteminin bir parçasıyım. Sorularınıza yanıt vermek için buradayım.",
     "Ne yapabilirsin?": "Ben, sesli sorularınızı algılayıp en uygun cevabı verebilirim.",
-
     "Hava nasıl?": "Hava durumunu öğrenmek için bir hava durumu servisine bağlanmalısınız.",
     "Bugün günlerden ne?": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz.",
     "Saat kaç?": "Saat bilgisine ulaşmak için sistem saatine bakabilirsiniz.",
-
-
     "Python nedir?": "Python, yaygın olarak kullanılan, güçlü ve okunabilir bir programlama dilidir.",
     "C++ nedir?": "C++, yüksek performanslı programlama için kullanılan bir programlama dilidir.",
     "Java nedir?": "Java, platformdan bağımsız çalışan nesne yönelimli bir programlama dilidir.",
     "Makine öğrenmesi nedir?": "Makine öğrenmesi, verilerden öğrenen ve tahminler yapan bir yapay zeka dalıdır.",
     "Yapay zeka nedir?": "Yapay zeka, insan zekasını taklit eden bilgisayar sistemlerinin geliştirilmesiyle ilgilenen bir alandır.",
-
     "İstanbul hangi ülkededir?": "İstanbul, Türkiye'dedir.",
     "Dünyanın en büyük okyanusu hangisidir?": "Dünyanın en büyük okyanusu Pasifik Okyanusu'dur.",
     "Ay Dünya'ya ne kadar uzaklıkta?": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır.",
     "En büyük gezegen hangisidir?": "Güneş Sistemi'ndeki en büyük gezegen Jüpiter'dir.",
     "Yerçekimi nedir?": "Yerçekimi, kütleler arasında çekim kuvveti oluşturan fiziksel bir olgudur.",
-
     "2+2 kaç eder?": "2+2 = 4 eder.",
     "10x10 kaç eder?": "10 çarpı 10 eşittir 100.",
     "Pi sayısı kaçtır?": "Pi sayısı yaklaşık olarak 3.1415'tir.",
     "Bir saat kaç dakikadır?": "Bir saat 60 dakikadır.",
     "Bir yıl kaç gündür?": "Bir yıl 365 gündür, ancak artık yıllarda 366 gündür.",
-
     "En çok konuşulan dil hangisidir?": "Dünyada en çok konuşulan dil İngilizce'dir.",
     "Dünyanın en uzun nehri hangisidir?": "Dünyanın en uzun nehri Nil Nehri'dir.",
     "Dünyanın en yüksek dağı hangisidir?": "Dünyanın en yüksek dağı Everest'tir.",
     "tamam": "Sizi dinliyorum",
-
     "Teşekkür ederim": "Rica ederim! Her zaman buradayım.",
     "Görüşürüz": "Görüşmek üzere! Kendinize iyi bakın.",
-    "Hoşça kal": "Hoşça kal! Tekrar görüşmek üzere."
+    "Hoşça kal": "Hoşça kal! Tekrar görüşmek üzere.",
+    "cevabın iyi değil": "Tamam kendimi geliştireceğim.",
+    "Benim adım ne": "Maalesef Bilmiyorum",
+    "teşekkürler": "Rica ederim, Yardımcı olabileceğim başka bir şey var mı?"
 }

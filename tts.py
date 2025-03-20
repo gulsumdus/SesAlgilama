@@ -1,27 +1,47 @@
-#Metinden konuşmaya (Text-to-Speech) işlemlerini içerir.
 import os
+import json
+import time
 from gtts import gTTS
 import playsound
+from config import AUDIO_FOLDER, LOG_FILE
+
+
+# Klasör yoksa oluştur
+os.makedirs(AUDIO_FOLDER, exist_ok=True)
 
 def speak_text(text):
     try:
-        # Sesli yanıtı kaydet
+        # Benzersiz bir ses dosyası oluştur
+        timestamp = int(time.time())  # Unix zaman damgası
+        file_path = os.path.join(AUDIO_FOLDER, f"response_{timestamp}.mp3")
+        
+        # Metni sese çevir ve kaydet
         tts = gTTS(text=text, lang="tr")
-        file_path = "response.txt"
-        tts.save(file_path)  # mp3 dosyasını kaydet
+        tts.save(file_path)
 
-        # Dosyanın kaydedildiğinden emin olun
-        if os.path.exists(file_path):
-            print(f"Ses dosyası kaydedildi: {file_path}")
-            playsound.playsound(file_path)  # Ses dosyasını çal
-        else:
-            print("Ses dosyası kaydedilemedi.")
+        # JSON'a konuşmayı kaydet
+        log_entry = {"timestamp": timestamp, "text": text, "audio_file": file_path}
+        save_to_json(log_entry)
 
-        os.remove(file_path)  # Ses dosyasını sil
+        # Ses dosyasını çal
+        playsound.playsound(file_path)
 
     except Exception as e:
         print(f"Sesli yanıt sırasında bir hata oluştu: {e}")
 
+def save_to_json(log_entry):
+    """Konuşmayı JSON formatında saklar."""
+    if not os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "w", encoding="utf-8") as file:
+            json.dump([], file, ensure_ascii=False, indent=4)
+
+    with open(LOG_FILE, "r+", encoding="utf-8") as file:
+        data = json.load(file)
+        data.append(log_entry)  # Yeni konuşmayı ekle
+        file.seek(0)
+        json.dump(data, file, ensure_ascii=False, indent=4)
+
 # Test
-speak_text("Merhaba, nasılsınız?")
+if __name__ == "__main__":
+    speak_text("Merhaba, nasılsınız?")
 

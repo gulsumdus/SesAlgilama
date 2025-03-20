@@ -1,10 +1,13 @@
-#Tüm modülleri bir araya getirerek programı çalıştıran ana dosya.
-#*********************************************************************
+# Tüm modülleri bir araya getirerek programı çalıştıran ana dosya.
+# *********************************************************************
+import json
 from face_recognition import wait_for_face
 from stt import recognize_speech
 from tts import speak_text
-from qa_handler import load_qa_data, find_best_answer
+from qa_handler import load_qa_data, find_best_answer, save_to_json
 from config import EXIT_COMMANDS
+
+LOG_FILE = "conversation_log.json"  # Konuşma geçmişi dosyası
 
 if __name__ == "__main__":
     if wait_for_face():  # Yüz algılandığında başlasın
@@ -26,4 +29,7 @@ if __name__ == "__main__":
                 print(f"Cevap: {answer}")
                 speak_text(answer)
 
+                # Konuşmayı JSON dosyasına kaydet
+                log_entry = {"question": question, "answer": answer}
+                save_to_json(log_entry)
 

@@ -1,0 +1,188 @@
+[
+    {
+        "question": "Merhaba",
+        "answer": "Merhaba! Size nasıl yardımcı olabilirim?"
+    },
+    {
+        "timestamp": 1742508012,
+        "text": "Merhaba! Size nasıl yardımcı olabilirim?",
+        "audio_file": "audio_files\\response_1742508012.mp3"
+    },
+    {
+        "question": "Merhaba",
+        "answer": "Merhaba! Size nasıl yardımcı olabilirim?"
+    },
+    {
+        "question": "saat kaç",
+        "answer": "Bir saat 60 dakikadır."
+    },
+    {
+        "timestamp": 1742508023,
+        "text": "Bir saat 60 dakikadır.",
+        "audio_file": "audio_files\\response_1742508023.mp3"
+    },
+    {
+        "question": "saat kaç",
+        "answer": "Bir saat 60 dakikadır."
+    },
+    {
+        "question": "Bugün günlerden",
+        "answer": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz."
+    },
+    {
+        "timestamp": 1742508030,
+        "text": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz.",
+        "audio_file": "audio_files\\response_1742508030.mp3"
+    },
+    {
+        "question": "Bugün günlerden",
+        "answer": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz."
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır."
+    },
+    {
+        "timestamp": 1742508040,
+        "text": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır.",
+        "audio_file": "audio_files\\response_1742508040.mp3"
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır."
+    },
+    {
+        "timestamp": 1742508102,
+        "text": "Tamam kendimi geliştireceğim.",
+        "audio_file": "audio_files\\response_1742508102.mp3"
+    },
+    {
+        "question": "cevabın iyi değil",
+        "answer": "Tamam kendimi geliştireceğim."
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır."
+    },
+    {
+        "timestamp": 1742508111,
+        "text": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır.",
+        "audio_file": "audio_files\\response_1742508111.mp3"
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Ay, Dünya'ya yaklaşık 384,400 kilometre uzaklıktadır."
+    },
+    {
+        "timestamp": 1742508144,
+        "text": "Görüşmek üzere!",
+        "audio_file": "audio_files\\response_1742508144.mp3"
+    },
+    {
+        "timestamp": 1742508269,
+        "text": "Merhaba",
+        "audio_file": "audio_files\\response_1742508269.mp3"
+    },
+    {
+        "question": "Merhaba",
+        "answer": "Merhaba! Size nasıl yardımcı olabilirim?"
+    },
+    {
+        "timestamp": 1742508280,
+        "text": "Merhaba! Size nasıl yardımcı olabilirim?",
+        "audio_file": "audio_files\\response_1742508280.mp3"
+    },
+    {
+        "question": "Merhaba",
+        "answer": "Merhaba! Size nasıl yardımcı olabilirim?"
+    },
+    {
+        "timestamp": 1742508312,
+        "text": "Maalesef Bilmiyorum",
+        "audio_file": "audio_files\\response_1742508312.mp3"
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Maalesef Bilmiyorum"
+    },
+    {
+        "question": "tamam",
+        "answer": "Sizi dinliyorum"
+    },
+    {
+        "timestamp": 1742508323,
+        "text": "Sizi dinliyorum",
+        "audio_file": "audio_files\\response_1742508323.mp3"
+    },
+    {
+        "question": "tamam",
+        "answer": "Sizi dinliyorum"
+    },
+    {
+        "question": "Bugün günlerden ne",
+        "answer": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz."
+    },
+    {
+        "timestamp": 1742508329,
+        "text": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz.",
+        "audio_file": "audio_files\\response_1742508329.mp3"
+    },
+    {
+        "question": "Bugün günlerden ne",
+        "answer": "Bugünün tarihini öğrenmek için sistem saatine bakabilirsiniz."
+    },
+    {
+        "timestamp": 1742508401,
+        "text": "Rica ederim, Yardımcı olabileceğim başka bir şey var mı?",
+        "audio_file": "audio_files\\response_1742508401.mp3"
+    },
+    {
+        "question": "teşekkürler",
+        "answer": "Rica ederim, Yardımcı olabileceğim başka bir şey var mı?"
+    },
+    {
+        "timestamp": 1742508423,
+        "text": "Bu soruya şu an için bir cevabım yok.",
+        "audio_file": "audio_files\\response_1742508423.mp3"
+    },
+    {
+        "question": "Hayır",
+        "answer": "Bu soruya şu an için bir cevabım yok."
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Maalesef Bilmiyorum"
+    },
+    {
+        "timestamp": 1742508433,
+        "text": "Maalesef Bilmiyorum",
+        "audio_file": "audio_files\\response_1742508433.mp3"
+    },
+    {
+        "question": "Benim adım ne",
+        "answer": "Maalesef Bilmiyorum"
+    },
+    {
+        "timestamp": 1742508457,
+        "text": "Bu soruya şu an için bir cevabım yok.",
+        "audio_file": "audio_files\\response_1742508457.mp3"
+    },
+    {
+        "question": "2 kaç",
+        "answer": "Bu soruya şu an için bir cevabım yok."
+    },
+    {
+        "timestamp": 1742508492,
+        "text": "Bu soruya şu an için bir cevabım yok.",
+        "audio_file": "audio_files\\response_1742508492.mp3"
+    },
+    {
+        "question": "2 + 2 kaç eder",
+        "answer": "Bu soruya şu an için bir cevabım yok."
+    },
+    {
+        "timestamp": 1742508511,
+        "text": "Görüşmek üzere!",
+        "audio_file": "audio_files\\response_1742508511.mp3"
+    }
+]
